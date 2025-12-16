@@ -81,7 +81,6 @@ module audio_controller #(
             play_egg   <= 1'b0; ptr_egg   <= '0;
         end else begin
             // Start requests (priority if multiple hit same cycle)
-            // Feel free to change priority order if you want.
             if (die_pulse) begin
                 play_die <= 1'b1;
                 ptr_die  <= '0;

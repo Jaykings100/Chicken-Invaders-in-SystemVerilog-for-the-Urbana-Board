@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module bullets_top #(parameter N =2/*= 8*/)(
+module bullets_top #(parameter N =2)(
     input  logic        Reset, 
     input  logic        frame_clk,
     input  logic [9:0]  ShipX,
@@ -9,8 +9,6 @@ module bullets_top #(parameter N =2/*= 8*/)(
     input  logic [9:0]  drawX,
     input  logic [9:0]  drawY,
     input  logic [N-1:0] killer_hits, 
-
-    // NEW INPUT
     input  logic        game_running, // Only fire if true
 
     output logic        bullet_pixel_on,

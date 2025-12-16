@@ -59,12 +59,6 @@ always_ff @ (posedge vga_clk) begin
 		blue <= palette_blue;
 	end
 	
-//	else if (spaceship)
-//	begin
-//	red <= spaceship_palette_red;
-//	green <= spaceship_palette_green;
-//	blue <= spaceship_palette_blue;
-//	end
 end
 
 game_background_rom game_background_rom (
@@ -80,17 +74,5 @@ game_background_palette game_background_palette (
 	.blue  (palette_blue)
 );
 
-//spaceship_rom spaceship_rom (
-//	.clka   (negedge_vga_clk),
-//	.addra (spaceship_rom_address),
-//	.douta       (spaceship_rom_q)
-//);
-
-//spaceship_palette spaceship_palette (
-//	.index (spaceship_rom_q),
-//	.red   (spaceship_palette_red),
-//	.green (spaceship_palette_green),
-//	.blue  (spaceship_palette_blue)
-//);
 
 endmodule

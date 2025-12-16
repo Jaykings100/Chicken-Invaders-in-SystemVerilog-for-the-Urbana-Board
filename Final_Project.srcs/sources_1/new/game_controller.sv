@@ -1,3 +1,5 @@
+// This module serves as the FSM for the game.
+
 module game_controller (
     input  logic       frame_clk,
     input  logic       Reset,
@@ -14,12 +16,12 @@ module game_controller (
     output logic       game_over,
     output logic       game_victory,
     
-    // NEW OUTPUT: Tells the rest of the system which level we are in
+    //Tells the rest of the system which level we are in
     output logic [1:0] level_out,
     output logic       level_reset // Triggers respawn between levels
 );
 
-    enum logic [2:0] { // Expanded state bits
+    enum logic [2:0] { 
         START_SCREEN,
         LEVEL_1,
         TRANSITION,  // Short pause to reset chickens
