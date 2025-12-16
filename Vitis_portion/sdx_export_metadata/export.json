@@ -1,0 +1,29 @@
+{
+  "version": "2022.2",
+  "applications": [],
+  "platforms": [
+    {
+      "name": "final_project_top"
+    }
+  ],
+  "systems": [
+    {
+      "name": "Chicken_invaders_system",
+      "platform": "C:/Users/josei/final_project_workspace/final_project_top/export/final_project_top/final_project_top.xpfm",
+      "sysConfig": "final_project_top",
+      "buildConfig": "Debug",
+      "applications": [
+        {
+          "name": "Chicken_invaders",
+          "platform": "C:/Users/josei/final_project_workspace/final_project_top/export/final_project_top/final_project_top.xpfm",
+          "platformPath": "C:\\Users\\josei\\final_project_workspace\\final_project_top\\export\\final_project_top",
+          "sysConfig": "final_project_top",
+          "domain": "standalone_microblaze_0",
+          "system": "Chicken_invaders_system"
+        }
+      ],
+      "platformPath": "C:\\Users\\josei\\final_project_workspace\\final_project_top\\export\\final_project_top"
+    }
+  ],
+  "others": []
+}
