@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../Final_Project.gen/sources_1/ip/eggdrop_rom/sim/eggdrop_rom.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

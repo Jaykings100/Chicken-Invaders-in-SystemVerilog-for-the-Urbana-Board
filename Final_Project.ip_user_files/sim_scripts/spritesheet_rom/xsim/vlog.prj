@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../Final_Project.gen/sources_1/ip/spritesheet_rom/sim/spritesheet_rom.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
